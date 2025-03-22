@@ -47,7 +47,9 @@ You can also add stuff to the list - even if you don't want to give that talk yo
 ### Student PL Meetup vol. 1
 
 🎥 Recording: recording will be available soon
+
 📅 Date: 12. March 2025
+
 📋 Line up:
 
 - Building a high-performance linker ([wild](https://github.com/davidlattimore/wild))
