@@ -1,7 +1,24 @@
-# #lang-talk meetups
+# Student PL Meetup | PRG • PRG
 
-This is the page for our small community of PL enthusiasts.
-The effort started on 16th November 2022. That was the date of our first meetup.
+This is the page for our small community of PL enthusiasts,
+formed mainly by students and alumni of FIT ČVUT, FEL ČVUT and MFF UK.
+
+The community meets monthly (or as time allows)
+for peer presentations, invited talks, and discussions on topics related to programming languages.
+Discussed topics span from interesting new programming languages and concepts,
+compiler and runtime implementations, to PLT and research topics.
+Any interesting topic is welcome.
+
+The effort originally started on 16th November 2022 as a *lang-talk meetup*.
+That was the date of our first meetup and the streak lasted for 16 meetups.
+
+After a delay,
+the meetups continued on 12th March as a *Student PL Meetup*
+to recognize that the community has outgrown a single faculty.
+Moreover, the community has joined forces with [PRG • PRG -
+Prague Programming Languages and Systems Research Network](https://prgprg.org/)
+to help each other connect people with shared interests and deepen (or widen) each other knowledge.
+
 
 ## [📬 Get updates to your mailbox](https://forms.gle/7aS8Qcf2bQPBXJFRA)
 We will keep you notified when the next meetup is getting ready.
@@ -27,9 +44,20 @@ You can also add stuff to the list - even if you don't want to give that talk yo
 
 ## 🎙 Past Talks and the [🎥 Complete YouTube Playlist](https://youtube.com/playlist?list=PLIsBvRXhzG5vHUVaEa25HKZpiKZaMLM_N&si=MVEg6JVYouC9M_lQ)
 
-### lang-talk meetup vol. 15
+### Student PL Meetup vol. 1
 
 🎥 Recording: recording will be available soon
+📅 Date: 12. March 2025
+📋 Line up:
+
+- Building a high-performance linker ([wild](https://github.com/davidlattimore/wild))
+- [Zprávy ze zákopů hardwarových IR](./resources/s01/wat.pdf)
+- Inside PDF
+
+
+### lang-talk meetup vol. 15
+
+🎥 Recording: *not available*
 
 📅 Date: 23. 5. at 3 pm
 

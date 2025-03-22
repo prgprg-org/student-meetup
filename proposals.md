@@ -20,9 +20,6 @@ Additionally, you can also mark the talk as `🛠 open to collab` - meaning that
 
 
 ## 👷 Being Prepared:
-- Let's oxidize the code `🛠 open to collab` (Artify)
-- S-Expression the ultimate Datum `🔧 in the works`
-- Exhaustive list of S-tier languages (things language developers don't want you to know) `🔧 in the works`
 
 ## 🫳 Free to Claim:
 
