@@ -40,6 +40,18 @@ Check it out if you want to know what is up.
 You can also add stuff to the list - even if you don't want to give that talk yourself, someone else might pick it up.
 -->
 
+## 📌 Future Talks
+
+### Student PL Meetup vol. 2
+
+📅 Date: 9. April 2025
+
+📋 Line up:
+- Breaking had: Jak rozbít Python snadno a rychle
+- Everything you didn't want to know about TeX
+- Why exceptions are like Dynamic Monads
+- Experiments in slightly less broken C
+
 <!-- ## ⌛ Upcoming Talks -->
 
 ## 🎙 Past Talks and the [🎥 Complete YouTube Playlist](https://youtube.com/playlist?list=PLIsBvRXhzG5vHUVaEa25HKZpiKZaMLM_N&si=MVEg6JVYouC9M_lQ)
@@ -57,11 +69,22 @@ You can also add stuff to the list - even if you don't want to give that talk yo
 - Inside PDF
 
 
+### lang-talk meetup vol. 16
+
+🎥 Recording: [https://youtu.be/jW5e6vCEhB0](https://youtu.be/jW5e6vCEhB0)
+
+📅 Date: 16. September 2024
+
+📋 Line up:
+- Algebraic Effects
+- Dependent type systems
+- Can we handle dependent types?
+
 ### lang-talk meetup vol. 15
 
 🎥 Recording: *not available*
 
-📅 Date: 23. 5. at 3 pm
+📅 Date: 23. May
 
 📋 Line up:
 - Lua and register-based VM
