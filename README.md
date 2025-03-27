@@ -19,10 +19,10 @@ Moreover, the community has joined forces with [PRG • PRG -
 Prague Programming Languages and Systems Research Network](https://prgprg.org/)
 to help each other connect people with shared interests and deepen (or widen) each other knowledge.
 
-
+<!--
 ## [📬 Get updates to your mailbox](https://forms.gle/7aS8Qcf2bQPBXJFRA)
 We will keep you notified when the next meetup is getting ready.
-
+-->
 ____
 
 ## [🎧 PL Podcasts](./podcasts.md)
@@ -58,15 +58,15 @@ You can also add stuff to the list - even if you don't want to give that talk yo
 
 ### Student PL Meetup vol. 1
 
-🎥 Recording: recording will be available soon
+🎥 Recording: [https://youtube.com/playlist?list=PLIsBvRXhzG5vYKLh0emgJDRae9tm104GG&si=c5D9R7EpHt3oTvZu](https://youtube.com/playlist?list=PLIsBvRXhzG5vYKLh0emgJDRae9tm104GG&si=c5D9R7EpHt3oTvZu)
 
 📅 Date: 12. March 2025
 
 📋 Line up:
 
-- Building a high-performance linker ([wild](https://github.com/davidlattimore/wild))
-- [Zprávy ze zákopů hardwarových IR](./resources/s01/wat.pdf)
-- Inside PDF
+- Building a high-performance linker ([wild](https://github.com/davidlattimore/wild)) - [recording](https://youtu.be/ujQoUME92Eg)
+- [Zprávy ze zákopů hardwarových IR](./resources/s01/wat.pdf) - [recording](https://youtu.be/6LLYgZr25OM)
+- Inside PDF - [recording](https://youtu.be/-pdxm6zR4Wg)
 
 
 ### lang-talk meetup vol. 16
