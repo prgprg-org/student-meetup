@@ -44,13 +44,15 @@ You can also add stuff to the list - even if you don't want to give that talk yo
 
 ### Student PL Meetup vol. 2
 
+🎥 Recording: [https://www.youtube.com/playlist?list=PLIsBvRXhzG5ugnknDBtN9TqIxHR-2QHBj](https://www.youtube.com/playlist?list=PLIsBvRXhzG5ugnknDBtN9TqIxHR-2QHBj)
+
 📅 Date: 9. April 2025
 
 📋 Line up:
-- Breaking had: Jak rozbít Python snadno a rychle
-- Everything you didn't want to know about TeX
-- Why exceptions are like Dynamic Monads
-- Experiments in slightly less broken C
+- Breaking had: Jak rozbít Python snadno a rychle - [recording](https://youtu.be/YkcQhx1cpas?si=jm_SjWgg-IpgCXzi)
+- Why exceptions are like Dynamic Monads - [recording](https://youtu.be/YkcQhx1cpas?si=jm_SjWgg-IpgCXzi), [blog post](https://blog.michal-atlas.cz/posts/lang-talks/18-cps.html)
+- Experiments in slightly less broken C - [recording](https://youtu.be/1wTXjTR9Mv0?si=bK6rCfYB8Rrue-C2)
+
 
 <!-- ## ⌛ Upcoming Talks -->
 
@@ -58,7 +60,8 @@ You can also add stuff to the list - even if you don't want to give that talk yo
 
 ### Student PL Meetup vol. 1
 
-🎥 Recording: [https://youtube.com/playlist?list=PLIsBvRXhzG5vYKLh0emgJDRae9tm104GG&si=c5D9R7EpHt3oTvZu](https://youtube.com/playlist?list=PLIsBvRXhzG5vYKLh0emgJDRae9tm104GG&si=c5D9R7EpHt3oTvZu)
+🎥 Recording: [https://youtube.com/playlist?list=PLIsBvRXhzG5vYKLh0emgJDRae9tm104GG&si=c5D9R7EpHt3oTvZu](https://youtube.com/playlist?list=PLIsBvRXhzG5vYKLh0emgJDRae9tm10[Breaking Had.pdf](https://github.com/user-attachments/files/19725508/Breaking.Had.pdf)
+4GG&si=c5D9R7EpHt3oTvZu)
 
 📅 Date: 12. March 2025
 
