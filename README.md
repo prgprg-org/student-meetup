@@ -67,8 +67,7 @@ You can also add stuff to the list - even if you don't want to give that talk yo
 
 ### Student PL Meetup vol. 1
 
-🎥 Recording: [https://youtube.com/playlist?list=PLIsBvRXhzG5vYKLh0emgJDRae9tm104GG&si=c5D9R7EpHt3oTvZu](https://youtube.com/playlist?list=PLIsBvRXhzG5vYKLh0emgJDRae9tm10[Breaking Had.pdf](https://github.com/user-attachments/files/19725508/Breaking.Had.pdf)
-4GG&si=c5D9R7EpHt3oTvZu)
+🎥 Recording: [https://youtube.com/playlist?list=PLIsBvRXhzG5vYKLh0emgJDRae9tm104GG&si=c5D9R7EpHt3oTvZu](https://youtube.com/playlist?list=PLIsBvRXhzG5vYKLh0emgJDRae9tm104GG&si=c5D9R7EpHt3oTvZu)
 
 📅 Date: 12. March 2025
 
