@@ -61,7 +61,7 @@ You can also add stuff to the list - even if you don't want to give that talk yo
 📅 Date: 9. April 2025
 
 📋 Line up:
-- Breaking had: Jak rozbít Python snadno a rychle - [recording](https://youtu.be/YkcQhx1cpas?si=jm_SjWgg-IpgCXzi)
+- Breaking had: Jak rozbít Python snadno a rychle - [recording](https://youtu.be/YkcQhx1cpas?si=jm_SjWgg-IpgCXzi), [slides](./resources/s01/Breaking Had.pdf)
 - Why exceptions are like Dynamic Monads - [recording](https://youtu.be/YkcQhx1cpas?si=jm_SjWgg-IpgCXzi), [blog post](https://blog.michal-atlas.cz/posts/lang-talks/18-cps.html)
 - Experiments in slightly less broken C - [recording](https://youtu.be/1wTXjTR9Mv0?si=bK6rCfYB8Rrue-C2)
 
