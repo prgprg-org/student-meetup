@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row people">
+        <div class="col-12-md col-10-lg">
+
+        <h2>Organizers</h2>
+        </div>
+        {% for it in load_data(path="content/organizers.json") %}
+        <div class="col-6-lg col-6-md">
+            <img src="/img/people/{{ it.photo }}" />
+            <div class="info">
+                <h3>{{ it.name }}</h3>
+                <p><strong>{{ it.position }}</strong></p>
+                {% if it.email %}<p><a href="mailto:{{ it.email }}">{{ it.email }}</a></p>{% endif %}
+                {# <p><a href="{{ it.web }}">{{ it.web }}</a></p> #}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+</div>

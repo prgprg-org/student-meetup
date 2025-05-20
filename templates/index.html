@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+{% set events = load_data(path="content/events.json") %}
+
+<div class="row">
+    <div class="col-12-md col-10-lg">
+        {{ section.content | safe }}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12-md col-10-lg">
+        <h2>Planned Events</h2>
+        {% if events["future"] %}
+        {% for event in events["future"] %}
+        <div class="event">
+            <h3><a id="{{ event.title | slugify }}" href="#{{ event.title | slugify }}">{{ event.title }}</a></h3>
+            <div class="date-recording">
+                <p><span class="icon">📅 </span>{{ event.date }}</p>
+                <p><span class="icon">📍 </span>{{ event.location | markdown(inline=true) | safe }}</p>
+                <p><span class="icon">📺 </span><a href="{{ event.stream }}" target="_blank">Live stream</a></p>
+            </div>
+            <ul>
+                {% for talk in event.talks %}
+                <li>{{ talk | markdown(inline=true) | safe }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endfor %}
+        {% else %}
+        <p>No future events scheduled at the moment.</p>
+        {% endif %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12-md col-10-lg">
+        <h2>Past Events</h2>
+        {% set past_events = events["past"] | slice(end=3) %}
+        {% for event in past_events %}
+        <div class="event">
+            <h3><a id="{{ event.title | slugify }}" href="#{{ event.title | slugify }}">{{ event.title }}</a></h3>
+            <div class="date-recording">
+                <p><span class="icon">📅</span>{{ event.date }}</p>
+                {% if event.recording %}
+                <p><span class="icon">🎥</span><a href="{{ event.recording }}" target="_blank">Recording</a></p>
+                {% endif %}
+            </div>
+            <ul>
+                {% for talk in event.talks %}
+                <li>{{ talk | markdown(inline=true) | safe }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endfor %}
+        {% if events["past"] | length > 5 %}
+        <p><a href="/past-events">See all past events</a></p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+
+{% block footer %}
+    {% include "components/contact_form.html" %}
+    <div class="container">
+    <div class="row">
+        <div class="col-12-md col-10-lg">
+            <h2>Collections</h2>
+            
+            <p>Selection of interesting resources from the PL area</p>
+    
+            {% set section = get_section(path="collections/_index.md") %}
+            <ul>
+                {% for page in section.pages %}
+                    <li>
+                        <a href="{{ page.path }}">{{ page.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    </div>
+    {% include "components/organizers.html" %}
+{% endblock footer %}

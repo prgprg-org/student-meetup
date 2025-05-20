@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Jakub Dupák",
+        "email": "pl-meetup@jakubdupak.com",
+        "photo": "default.jpg",
+        "position": "Meetup organizer"
+    },
+    {
+        "name": "Oliver Tušla",
+        "photo": "default.jpg",
+        "position": "Meetup organizer & Discord admin"
+    },
+    {
+        "name": "Michal Atlas",
+        "photo": "default.jpg",
+        "position": "Meetup organizer"
+    },
+    {
+        "name": "Vojtěch Štěpančík",
+        "photo": "default.jpg",
+        "position": "Former meetup organizer"
+    },
+    {
+        "name": "Jan Liam Verter",
+        "photo": "default.jpg",
+        "position": "Founder & former meetup organizer"
+    }
+]
