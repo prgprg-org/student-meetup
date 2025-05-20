@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% set events = load_data(path="content/events.json") %}
+
+    <div class="row">
+        <div class="col-12-md col-10-lg">            
+            {% for event in events["past"] %}
+                <div class="event">
+                    <h3><a id="{{ event.title | slugify }}" href="#{{ event.title | slugify }}">{{ event.title }}</a></h3>
+                    <div class="date-recording">
+                        <p><span class="icon">📅</span>{{ event.date }}</p>
+                        {% if event.recording %}
+                            <p><span class="icon">🎥</span><a href="{{ event.recording }}" target="_blank">Recording</a></p>
+                        {% endif %}
+                    </div>
+                    <ul>
+                        {% for talk in event.talks %}
+                            <li>{{ talk | markdown(inline=true) | safe }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

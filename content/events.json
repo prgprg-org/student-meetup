@@ -1,0 +1,206 @@
+{
+    "future": [
+        {
+            "title": "Student PL Meetup vol. 3",
+            "date": "TBD (first week of June 2025)",
+            "location": "[T2:C3-132, FEL ČVUT, Dejvice](https://navigate.fel.cvut.cz/static/demo/index.html?start=T2:C2-86&end=T2:C3-132)",
+            "stream": "https://www.youtube.com/playlist?list=PLQL6z4JeTTQmGdWlPl-Sp3y-wuYLgpD4i",
+            "talks": [
+                "Everything you didn't want to know about TeX",
+                "Transpiling LLVM to a high-level language",
+                "[**Call for talks is open!**](/call-for-talks)"
+            ]
+        }
+    ],
+    "past": [
+        {
+            "title": "Student PL Meetup vol. 2",
+            "date": "9. April 2025",
+            "recording": "https://www.youtube.com/playlist?list=PLIsBvRXhzG5ugnknDBtN9TqIxHR-2QHBj",
+            "talks": [
+                "[Breaking had: Jak rozbít Python snadno a rychle](/resources/s02/Breaking_Had.pdf)",
+                "Why exceptions are like Dynamic Monads",
+                "Experiments in slightly less broken C"
+            ]
+        },
+        {
+            "title": "Student PL Meetup vol. 1",
+            "date": "12. March 2025",
+            "recording": "https://youtube.com/playlist?list=PLIsBvRXhzG5vYKLh0emgJDRae9tm104GG&si=c5D9R7EpHt3oTvZu",
+            "talks": [
+                "Building a high-performance linker",
+                "[Zprávy ze zákopů hardwarových IR](/resources/s01/wat.pdf)",
+                "Inside PDF"
+            ]
+        },
+        {
+            "title": "lang-talk meetup vol. 16",
+            "date": "16. September 2024",
+            "recording": "https://youtu.be/jW5e6vCEhB0",
+            "talks": [
+                "Algebraic Effects",
+                "Dependent type systems",
+                "Can we handle dependent types?"
+            ]
+        },
+        {
+            "title": "lang-talk meetup vol. 15",
+            "date": "23. May 2024",
+            "recording": null,
+            "talks": [
+                "Lua and register-based VM"
+            ]
+        },
+        {
+            "title": "lang-talk meetup vol. 14",
+            "date": "24. April 2024",
+            "recording": "https://youtu.be/mLtHML1shYI",
+            "talks": [
+                "A Generic Introduction to Algebraic Effects",
+                "[Light Intro to Formal Logic, Proof Systems, Theorem Proving](/resources/14/logic/TALK.md)",
+                "[Introduction to Dependent Type Theory](/resources/14/dtt/handout.pdf)"
+            ]
+        },
+        {
+            "title": "lang-talk meetup vol. 13",
+            "date": "27. March 2024",
+            "recording": "https://youtu.be/HW8xNzV0U88",
+            "talks": [
+                "[Jak zahodit bash pro skripty a nahradit ho Pythonem aniž by toho člověk litoval](/resources/13/unbash.pdf)",
+                "Shen: building types with Prolog and the sequent calculus",
+                "[The costs of mutability in dynamic programming languages](/resources/13/costs-of-mutability)"
+            ]
+        },
+        {
+            "title": "lang-talk meetup vol. 12",
+            "date": "19. February 2024",
+            "recording": [
+                "https://youtu.be/pZjsCWpHAw0",
+                "https://youtu.be/ford0RdAVZs",
+                "https://youtu.be/IYQjRpPndFc"
+            ],
+            "talks": [
+                "[Inside the Rust Borrow Checker](/resources/12/rust.pdf)",
+                "[How flow-sensitive typing works in Kotlin](/resources/12/kotlin.pdf)"
+            ]
+        },
+        {
+            "title": "lang-talk meetup vol. 11",
+            "date": "29. January 2024",
+            "recording": null,
+            "talks": [
+                "Isabelle/HOL (*invited speaker*)",
+                "Type-level and Metaprogramming in Scala (*invited speaker*)"
+            ]
+        },
+        {
+            "title": "lang-talk meetup vol. 10",
+            "date": "29. November 2023",
+            "recording": null,
+            "talks": [
+                "[Automated Theorem Proving = Logic Programming](/resources/10/logic.pdf)",
+                "Scalene!",
+                "[CLOS: The basic parts & reading lisp](/resources/10/clos.pdf)"
+            ]
+        },
+        {
+            "title": "lang-talk meetup vol. 9",
+            "date": "30. October 2023",
+            "recording": null,
+            "talks": [
+                "[Expression problem](/resources/9/expression-problem)",
+                "[Closures are a poor man's object](/resources/9/prototypes.pdf)",
+                "Introduction to Formal Reasoning and Theorem Proving"
+            ]
+        },
+        {
+            "title": "lang-talk meetup vol. 8",
+            "date": "26. July 2023",
+            "recording": null,
+            "talks": [
+                "How to build and break LLVM"
+            ]
+        },
+        {
+            "title": "lang-talk meetup vol. 7",
+            "date": "29. June 2023",
+            "recording": [
+                "https://youtu.be/-ftxd2QNXis",
+                "https://youtu.be/pUJqE9v3bsI"
+            ],
+            "talks": [
+                "S-Expression the ultimate Datum",
+                "JavaScript is Stat...Expression oriented, continued"
+            ]
+        },
+        {
+            "title": "lang-talk meetup vol. 6",
+            "date": "30. May 2023",
+            "recording": "https://youtu.be/SCGJM7OkGmU",
+            "talks": [
+                "Historie programování: APL",
+                "JavaScript is Stat...Expression oriented"
+            ]
+        },
+        {
+            "title": "lang-talk meetup vol. 5",
+            "date": "20. April 2023",
+            "recording": "https://youtu.be/mGLxYYmkUho",
+            "talks": [
+                "[Historie programování: Microsoft Visual Basic](/resources/5/vb.pdf)",
+                "[Let's oxidize the code](/resources/5/rust.pdf)",
+                "Moderated Discussion: Shells of the Future"
+            ]
+        },
+        {
+            "title": "lang-talk meetup vol. 4",
+            "date": "27. March 2023",
+            "recording": "https://youtu.be/NYslWINATGI",
+            "talks": [
+                "[Harry Potter And The Methods of Equality Saturation](/resources/4/hp-equality-saturation.pdf)",
+                "[Significantly Abridged: Optimize for speed and safety in Common Lisp and Coalton through Gradual typing](/resources/4/cl.pdf)",
+                "Type System for Your Type System: Introduction to Kinds",
+                "Moderated Discussion: The Best Ways and PLs for Learning Programming"
+            ]
+        },
+        {
+            "title": "lang-talk meetup vol. 3",
+            "date": "28. February 2023",
+            "recording": "https://youtu.be/4wtDB4PASDE",
+            "talks": [
+                "Symbolic Execution, is it even useful?",
+                "(not so) Moderated Discussion: From Functional Programming to ABIs and More"
+            ]
+        },
+        {
+            "title": "lang-talk meetup vol. 2",
+            "date": "31. January 2023",
+            "recording": "https://youtu.be/qD_nt0Rrlsw",
+            "talks": [
+                "[Continuations, how to have made a different sandwich](/resources/2/continuations.pdf)",
+                "[Properly 🅱️ased testing](/resources/2/testing.pdf)",
+                "[Really Gentle Introduction to Haskell's Type System](/resources/2/qualified.pdf)"
+            ]
+        },
+        {
+            "title": "lang-talk meetup vol. 1",
+            "date": "15. December 2022",
+            "recording": "https://youtu.be/AFKpPIl9RDU",
+            "talks": [
+                "[Malbolge: the self-modifying puzzle?](/resources/1/malbolge.pdf)",
+                "[Project Bluex](/resources/1/project-bluex.pdf)"
+            ]
+        },
+        {
+            "title": "lang-talk meetup vol. 0",
+            "date": "16. November 2022",
+            "recording": "https://youtu.be/ECtC_Y6RLBI",
+            "talks": [
+                "Weird Stuff PowerShell Does",
+                "[Φ Nodes are Functions!](/resources/0/phi.pdf)",
+                "[WAT: Hardware Edition](/resources/0/wat.pdf)",
+                "[Kind of a Pointless* Talk](/resources/0/kind-of-pointless.pdf)"
+            ]
+        }
+    ]
+}
