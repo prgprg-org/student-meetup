@@ -4,59 +4,111 @@ body {
   min-height: 100vh;
 }
 
-.container { width:96%; max-width:75rem; margin-left:auto; margin-right:auto;}
-.row { position:relative; width:100%; margin: 0 0 30px 0px; }
-.row [class^="col"] { float:left; margin:0px 2%; }
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
-  width:96%;
+.container { 
+  width: 96%; 
+  max-width: 75rem; 
+  margin-left: auto; 
+  margin-right: auto;
 }
-.col-1-sm { width:4.33%; }
-.col-2-sm { width:12.66%; }
-.col-3-sm { width:21%; }
-.col-4-sm { width:29.33%; }
-.col-5-sm { width:37.66%; }
-.col-6-sm { width:46%; }
-.col-7-sm { width:54.33%; }
-.col-8-sm { width:62.66%; }
-.col-9-sm { width:71%; }
-.col-10-sm { width:79.33%; }
-.col-11-sm { width:87.66%; }
-.col-12-sm { width:96%; }
-.row::after { content:""; display:table; clear:both; }
-@media only screen and (min-width:720px) {
-  .col-1-md { width:4.33%; }
-  .col-2-md { width:12.66%; }
-  .col-3-md { width:21%; }
-  .col-4-md { width:29.33%; }
-  .col-5-md { width:37.66%; }
-  .col-6-md { width:46%; }
-  .col-7-md { width:54.33%; }
-  .col-8-md { width:62.66%; }
-  .col-9-md { width:71%; }
-  .col-10-md { width:79.33%; }
-  .col-11-md { width:87.66%; }
-  .col-12-md   { width:96%; }
+
+/* Replace float-based grid with CSS Grid */
+.row { 
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 2%;
+  margin-bottom: 30px;
+  width: 100%;
 }
-@media only screen and (min-width:960px) {
-  .col-1-lg { width:4.33%; }
-  .col-2-lg { width:12.66%; }
-  .col-3-lg { width:21%; }
-  .col-4-lg { width:29.33%; }
-  .col-5-lg { width:37.66%; }
-  .col-6-lg { width:46%; }
-  .col-7-lg { width:54.33%; }
-  .col-8-lg { width:62.66%; }
-  .col-9-lg { width:71%; }
-  .col-10-lg { width:79.33%; }
-  .col-11-lg { width:87.66%; }
-  .col-12-lg { width:96%; }
+
+/* Base column widths (mobile first) */
+[class*="col-"] {
+  grid-column: span 12;
+}
+
+/* Small devices */
+@media only screen and (min-width: 480px) {
+  .col-1-sm { grid-column: span 1; }
+  .col-2-sm { grid-column: span 2; }
+  .col-3-sm { grid-column: span 3; }
+  .col-4-sm { grid-column: span 4; }
+  .col-5-sm { grid-column: span 5; }
+  .col-6-sm { grid-column: span 6; }
+  .col-7-sm { grid-column: span 7; }
+  .col-8-sm { grid-column: span 8; }
+  .col-9-sm { grid-column: span 9; }
+  .col-10-sm { grid-column: span 10; }
+  .col-11-sm { grid-column: span 11; }
+  .col-12-sm { grid-column: span 12; }
+}
+
+/* Medium devices */
+@media only screen and (min-width: 720px) {
+  .col-1-md { grid-column: span 1; }
+  .col-2-md { grid-column: span 2; }
+  .col-3-md { grid-column: span 3; }
+  .col-4-md { grid-column: span 4; }
+  .col-5-md { grid-column: span 5; }
+  .col-6-md { grid-column: span 6; }
+  .col-7-md { grid-column: span 7; }
+  .col-8-md { grid-column: span 8; }
+  .col-9-md { grid-column: span 9; }
+  .col-10-md { grid-column: span 10; }
+  .col-11-md { grid-column: span 11; }
+  .col-12-md { grid-column: span 12; }
+}
+
+/* Large devices */
+@media only screen and (min-width: 960px) {
+  .col-1-lg { grid-column: span 1; }
+  .col-2-lg { grid-column: span 2; }
+  .col-3-lg { grid-column: span 3; }
+  .col-4-lg { grid-column: span 4; }
+  .col-5-lg { grid-column: span 5; }
+  .col-6-lg { grid-column: span 6; }
+  .col-7-lg { grid-column: span 7; }
+  .col-8-lg { grid-column: span 8; }
+  .col-9-lg { grid-column: span 9; }
+  .col-10-lg { grid-column: span 10; }
+  .col-11-lg { grid-column: span 11; }
+  .col-12-lg { grid-column: span 12; }
 }
 
 body { background:#E5E3DA; min-width:260px }
-header { background-image:url(../img/prague.jpg); height:20vw; min-height:250px; background-position:center; background-size:cover;}
-header .row { position:relative; height:20vw; min-height:250px; }
-header .cover { background:rgba(0,0,0,0.25); width:100%; min-height:250px; height:20vw; }
-header .bot { position:absolute; bottom:20px; }
+
+/* Header styles */
+header { 
+  position: relative;
+  height: 20vw; 
+  min-height: 250px;
+}
+
+/* Background image with filter applied directly to it */
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/prague.webp);
+  background-position: center;
+  background-size: cover;
+  filter: brightness(75%);
+  z-index: -1;
+}
+
+header .row { 
+  height: 100%;
+  min-height: 250px; 
+  margin-bottom: 0;
+  position: relative;
+}
+
+header .bot { 
+  grid-column: 1 / -1;
+  position: absolute;
+  bottom: 20px;
+}
 
 header h1 { color:white; font:700 30pt "Neuton", serif; background:#822D1C; padding:0px 20px 6px 20px; margin-bottom:20px; width:fit-content; }
 header h2 { color:white; font:200 18pt "Neuton", serif; background:#4F7740; padding:2px 20px 8px 20px; margin-bottom:20px; width:fit-content; }
