@@ -1,0 +1,9 @@
+% luatex -ini --interaction=nonstopmode --output-format=pdf shipout1.tex
+% dot -Tsvg shipout1.gv > shipout1.svg
+% mutool clean -difcs shipout1.pdf shipout1.pdf
+
+\input shipout-setup
+
+\shipout\hbox{Hello world!}
+
+\end

@@ -7,7 +7,7 @@
             "stream": "https://www.youtube.com/playlist?list=PLQL6z4JeTTQmGdWlPl-Sp3y-wuYLgpD4i",
             "talks": [
                 "Variace na ~~Renesanční~~ PL téma - vážený host Jirka Beneš (napůl potvrzeno):\n- Jak se dá jednoduše pochopit a implementovat type-based overloading\n- Proč je algebraic subtyping chvílema jednodušší než opěvovaný Hindley-Milner",
-                "Everything you didn't want to know about TeX",
+                "[Everything you didn't want to know about TeX](resources/s03/tex/index.html)",
                 "Transpiling LLVM to a high-level language"
             ]
         }
@@ -18,7 +18,7 @@
             "date": "9. April 2025",
             "recording": "https://www.youtube.com/playlist?list=PLIsBvRXhzG5ugnknDBtN9TqIxHR-2QHBj",
             "talks": [
-                "[Breaking had: Jak rozbít Python snadno a rychle](/resources/s02/Breaking_Had.pdf)",
+                "[Breaking had: Jak rozbít Python snadno a rychle](resources/s02/Breaking_Had.pdf)",
                 "Why exceptions are like Dynamic Monads",
                 "Experiments in slightly less broken C"
             ]
@@ -29,7 +29,7 @@
             "recording": "https://youtube.com/playlist?list=PLIsBvRXhzG5vYKLh0emgJDRae9tm104GG&si=c5D9R7EpHt3oTvZu",
             "talks": [
                 "Building a high-performance linker",
-                "[Zprávy ze zákopů hardwarových IR](/resources/s01/wat.pdf)",
+                "[Zprávy ze zákopů hardwarových IR](resources/s01/wat.pdf)",
                 "Inside PDF"
             ]
         },
@@ -57,8 +57,8 @@
             "recording": "https://youtu.be/mLtHML1shYI",
             "talks": [
                 "A Generic Introduction to Algebraic Effects",
-                "[Light Intro to Formal Logic, Proof Systems, Theorem Proving](/resources/14/logic/TALK.md)",
-                "[Introduction to Dependent Type Theory](/resources/14/dtt/handout.pdf)"
+                "[Light Intro to Formal Logic, Proof Systems, Theorem Proving](resources/14/logic/TALK.md)",
+                "[Introduction to Dependent Type Theory](resources/14/dtt/handout.pdf)"
             ]
         },
         {
@@ -66,9 +66,9 @@
             "date": "27. March 2024",
             "recording": "https://youtu.be/HW8xNzV0U88",
             "talks": [
-                "[Jak zahodit bash pro skripty a nahradit ho Pythonem aniž by toho člověk litoval](/resources/13/unbash.pdf)",
+                "[Jak zahodit bash pro skripty a nahradit ho Pythonem aniž by toho člověk litoval](resources/13/unbash.pdf)",
                 "Shen: building types with Prolog and the sequent calculus",
-                "[The costs of mutability in dynamic programming languages](/resources/13/costs-of-mutability)"
+                "[The costs of mutability in dynamic programming languages](resources/13/costs-of-mutability)"
             ]
         },
         {
@@ -80,8 +80,8 @@
                 "https://youtu.be/IYQjRpPndFc"
             ],
             "talks": [
-                "[Inside the Rust Borrow Checker](/resources/12/rust.pdf)",
-                "[How flow-sensitive typing works in Kotlin](/resources/12/kotlin.pdf)"
+                "[Inside the Rust Borrow Checker](resources/12/rust.pdf)",
+                "[How flow-sensitive typing works in Kotlin](resources/12/kotlin.pdf)"
             ]
         },
         {
@@ -98,9 +98,9 @@
             "date": "29. November 2023",
             "recording": null,
             "talks": [
-                "[Automated Theorem Proving = Logic Programming](/resources/10/logic.pdf)",
+                "[Automated Theorem Proving = Logic Programming](resources/10/logic.pdf)",
                 "Scalene!",
-                "[CLOS: The basic parts & reading lisp](/resources/10/clos.pdf)"
+                "[CLOS: The basic parts & reading lisp](resources/10/clos.pdf)"
             ]
         },
         {
@@ -108,8 +108,8 @@
             "date": "30. October 2023",
             "recording": null,
             "talks": [
-                "[Expression problem](/resources/9/expression-problem)",
-                "[Closures are a poor man's object](/resources/9/prototypes.pdf)",
+                "[Expression problem](resources/9/expression-problem)",
+                "[Closures are a poor man's object](resources/9/prototypes.pdf)",
                 "Introduction to Formal Reasoning and Theorem Proving"
             ]
         },
@@ -147,8 +147,8 @@
             "date": "20. April 2023",
             "recording": "https://youtu.be/mGLxYYmkUho",
             "talks": [
-                "[Historie programování: Microsoft Visual Basic](/resources/5/vb.pdf)",
-                "[Let's oxidize the code](/resources/5/rust.pdf)",
+                "[Historie programování: Microsoft Visual Basic](resources/5/vb.pdf)",
+                "[Let's oxidize the code](resources/5/rust.pdf)",
                 "Moderated Discussion: Shells of the Future"
             ]
         },
@@ -157,8 +157,8 @@
             "date": "27. March 2023",
             "recording": "https://youtu.be/NYslWINATGI",
             "talks": [
-                "[Harry Potter And The Methods of Equality Saturation](/resources/4/hp-equality-saturation.pdf)",
-                "[Significantly Abridged: Optimize for speed and safety in Common Lisp and Coalton through Gradual typing](/resources/4/cl.pdf)",
+                "[Harry Potter And The Methods of Equality Saturation](resources/4/hp-equality-saturation.pdf)",
+                "[Significantly Abridged: Optimize for speed and safety in Common Lisp and Coalton through Gradual typing](resources/4/cl.pdf)",
                 "Type System for Your Type System: Introduction to Kinds",
                 "Moderated Discussion: The Best Ways and PLs for Learning Programming"
             ]
@@ -177,9 +177,9 @@
             "date": "31. January 2023",
             "recording": "https://youtu.be/qD_nt0Rrlsw",
             "talks": [
-                "[Continuations, how to have made a different sandwich](/resources/2/continuations.pdf)",
-                "[Properly 🅱️ased testing](/resources/2/testing.pdf)",
-                "[Really Gentle Introduction to Haskell's Type System](/resources/2/qualified.pdf)"
+                "[Continuations, how to have made a different sandwich](resources/2/continuations.pdf)",
+                "[Properly 🅱️ased testing](resources/2/testing.pdf)",
+                "[Really Gentle Introduction to Haskell's Type System](resources/2/qualified.pdf)"
             ]
         },
         {
@@ -187,8 +187,8 @@
             "date": "15. December 2022",
             "recording": "https://youtu.be/AFKpPIl9RDU",
             "talks": [
-                "[Malbolge: the self-modifying puzzle?](/resources/1/malbolge.pdf)",
-                "[Project Bluex](/resources/1/project-bluex.pdf)"
+                "[Malbolge: the self-modifying puzzle?](resources/1/malbolge.pdf)",
+                "[Project Bluex](resources/1/project-bluex.pdf)"
             ]
         },
         {
@@ -197,9 +197,9 @@
             "recording": "https://youtu.be/ECtC_Y6RLBI",
             "talks": [
                 "Weird Stuff PowerShell Does",
-                "[Φ Nodes are Functions!](/resources/0/phi.pdf)",
-                "[WAT: Hardware Edition](/resources/0/wat.pdf)",
-                "[Kind of a Pointless* Talk](/resources/0/kind-of-pointless.pdf)"
+                "[Φ Nodes are Functions!](resources/0/phi.pdf)",
+                "[WAT: Hardware Edition](resources/0/wat.pdf)",
+                "[Kind of a Pointless* Talk](resources/0/kind-of-pointless.pdf)"
             ]
         }
     ]
