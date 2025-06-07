@@ -1,0 +1,19 @@
+% luatex -ini --interaction=nonstopmode --output-format=pdf shipout1.tex
+% dot -Tsvg shipout1.gv > shipout1.svg
+% mutool clean -difcs shipout1.pdf shipout1.pdf
+
+\input shipout-setup
+
+\shipout\frame{
+    \vbox to 244mm {%
+        \vskip 0mm plus 1fil
+        \hbox to 160mm {%
+            \hfil
+            Hello world!
+            \hfil
+        }%
+        \vskip 0mm plus 1fil
+    }%
+}
+
+\end

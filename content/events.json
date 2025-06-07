@@ -7,7 +7,7 @@
             "stream": "https://www.youtube.com/playlist?list=PLQL6z4JeTTQmGdWlPl-Sp3y-wuYLgpD4i",
             "talks": [
                 "Variace na ~~Renesanční~~ PL téma - vážený host Jirka Beneš (napůl potvrzeno):\n- Jak se dá jednoduše pochopit a implementovat type-based overloading\n- Proč je algebraic subtyping chvílema jednodušší než opěvovaný Hindley-Milner",
-                "Everything you didn't want to know about TeX",
+                "[Everything you didn't want to know about TeX](/resources/s03/tex/index.html)",
                 "Transpiling LLVM to a high-level language"
             ]
         }
