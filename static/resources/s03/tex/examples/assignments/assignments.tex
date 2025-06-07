@@ -1,0 +1,28 @@
+% rm -f assignments.log assignments.pdf
+% luatex --interaction=nonstopmode --output-format=pdf assignments.tex
+
+\tracingonline=1
+\tracingassigns=1
+\tracingrestores=1
+\tracinggroups=1
+
+\countdef\a=20
+
+\a=1
+\the\a
+
+{%
+	\a=2
+	\the\a
+
+	{%
+		\a=3
+		\the\a
+
+	}%
+	\the\a
+
+}%
+\the\a
+
+\bye

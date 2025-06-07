@@ -1,0 +1,61 @@
+\catcode `\{=1 % left brace is begin-group character
+\catcode `\}=2 % right brace is end-group character
+\catcode `\$=3 % dollar sign is math shift
+\catcode `\&=4 % ampersand is alignment tab
+\catcode `\#=6 % hash mark is macro parameter character
+\catcode `\^=7 % 
+\catcode `\^^K=7 % circumflex and uparrow are for superscripts
+\catcode `\^^A=8 % downarrow is for subscripts
+\catcode `\^^I=10 % ascii tab is a blank space
+\catcode `\_=11 % underline can be used in control sequences
+\catcode `\~=13 % tilde is active
+\catcode `\^^a0=13 % non breaking space in Unicode
+\catcode 127=12 % normal character
+\directlua {tex.enableprimitives('', tex.extraprimitives())}
+
+
+\tracingonline=1
+\tracingoutput=1
+%\tracingcommands=2
+\tracinglostchars=1
+\showboxbreadth=150
+\showboxdepth=7
+
+\font\tenrm=cmr10
+\tenrm
+\pagewidth=210mm
+\pageheight=297mm
+\hoffset=25mm
+\voffset=25mm
+
+\def\frame#1{%
+    \hbox{%
+        \vrule
+	\vtop{%
+	    \vbox{%
+	        \hrule
+                \kern1pt
+                \hbox{%
+                    \kern1pt
+                    {#1}%
+                    \kern1pt
+                }%
+            }%
+            \kern1pt
+            \hrule
+        }%
+        \vrule
+    }%
+}
+
+\def\shipout{\directlua{
+    local function cb(head)
+        require("nodetree").print(head)
+        require("viznodelist").nodelist_visualize(head, "\jobname.gv")
+        return head
+    end
+    local head = token.scan_list()
+    tex.box[0] = head
+    cb(head)
+    tex.shipout(0)
+}}

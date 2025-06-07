@@ -1,0 +1,72 @@
+% rm -f document.aux document.log document.pdf
+% luatex document.pdf
+
+\newcount\secnum
+
+\def\section #1 \par{
+    \par\bigskip
+    \global\advance\secnum by1
+    \noindent{\bf \the\secnum. #1}\par\nobreak
+    \mark{\the\secnum. #1}%
+    %\write\toc{\string\tocline{\the\secnum}{#1}{\the\pageno}} % wrong, we need \the\secnum fixed, but \the\pageno to get expanded only at shipout
+    %\expandafter\write\expandafter\toc\expandafter{\expandafter\string\expandafter\tocline\expandafter{\the\secnum}{\a#1}{\the\pageno}} % better expansion, but doesn't handle weird things in #1
+    \expanded{\write\toc{\string\tocline{\the\secnum}{\detokenize{#1}}{\noexpand\the\pageno}}} % good, expands \the\secnum, esapes characetrs in #1, and doesn't expand page number (which is expanded only at time of write
+}
+\def\headrule{\leaders\hrule height3pt depth-2.6pt\hfil}
+
+
+\noindent{\bf Table of contents}\par\nobreak
+
+\def\tocline #1#2#3{%
+     \line{#1. #2 \leaders\hbox to1em{\hfil.\hfil}\hfil\ #3}}
+
+\newread \testin
+\openin\testin={\jobname.aux}\relax
+\ifeof\testin\else
+    \input \jobname.aux
+\fi
+
+\eject
+\headline={\headrule \kern10pt \firstmark \kern10pt \headrule}
+
+\newwrite\toc
+\immediate\openout\toc=\jobname.aux
+
+
+\section $\alpha$ section
+
+\input knuth
+\footnote{1}{Footnote}
+
+\input knuth
+\input knuth
+\input knuth
+
+\section $\beta$~{\it section}
+
+\input knuth
+\input knuth
+\input knuth
+
+\topinsert
+\hfil\vbox{%
+\hsize=80mm
+\input knuth
+
+{\bf Figure 1.} Floating text
+}\hfil
+\endinsert
+
+\input knuth
+\input knuth
+\input knuth
+\input knuth
+\input knuth
+\input knuth
+\input knuth
+
+\section Third section
+
+\input knuth
+
+\bye
