@@ -14,6 +14,16 @@
     ],
     "past": [
         {
+            "title": "Student PL Meetup vol. 3",
+            "date": "6. June 2025",
+            "recording": null,
+            "talks": [
+                "Variace na ~~Renesanční~~ PL téma\n- Jak se dá jednoduše pochopit a implementovat type-based overloading\n- Proč je algebraic subtyping chvílema jednodušší než opěvovaný Hindley-Milner",
+                "[Everything you didn't want to know about TeX](resources/s03/tex/index.html)",
+                "[Transpiling LLVM to a high-level language](https://blog.michal-atlas.cz/posts/lang-talks/19-i/)"
+            ]
+        },
+        {
             "title": "Student PL Meetup vol. 2",
             "date": "9. April 2025",
             "recording": "https://www.youtube.com/playlist?list=PLIsBvRXhzG5ugnknDBtN9TqIxHR-2QHBj",
