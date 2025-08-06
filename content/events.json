@@ -19,7 +19,7 @@
             "recording": "https://www.youtube.com/playlist?list=PLIsBvRXhzG5ugnknDBtN9TqIxHR-2QHBj",
             "talks": [
                 "[Breaking had: Jak rozbít Python snadno a rychle](resources/s02/Breaking_Had.pdf)",
-                "Why exceptions are like Dynamic Monads",
+                "[Why exceptions are like Dynamic Monads](https://blog.michal-atlas.cz/posts/lang-talks/18-cps/)",
                 "Experiments in slightly less broken C"
             ]
         },
