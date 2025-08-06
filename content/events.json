@@ -14,6 +14,16 @@
     ],
     "past": [
         {
+            "title": "Student PL Meetup vol. 4",
+            "date": "31. July 2025",
+            "recording": null,
+            "talks": [
+                "[Lessons learnt building a FEE CTU template in Typst](https://typst.app/project/rONUnXcOkPaqzsXiPrn3tp)",
+                "[Theorems for free](https://vojtechstep.eu/notes/2025/tff.pdf)",
+                "Weird stuff PowerShell does II"
+            ]
+        },
+        {
             "title": "Student PL Meetup vol. 3",
             "date": "6. June 2025",
             "recording": null,
