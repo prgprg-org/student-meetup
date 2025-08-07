@@ -16,7 +16,7 @@
                     </div>
                     <ul>
                         {% for talk in event.talks %}
-                            <li>{{ talk | markdown(inline=true) | safe }}</li>
+                            <li>{{ talk | replace(from="(resources/", to="(../resources/") | markdown(inline=true) | safe }}</li>
                         {% endfor %}
                     </ul>
                 </div>
