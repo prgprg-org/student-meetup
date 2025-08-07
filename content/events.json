@@ -16,7 +16,7 @@
         {
             "title": "Student PL Meetup vol. 4",
             "date": "31. July 2025",
-            "recording": null,
+            "recording": "https://www.youtube.com/playlist?list=PLIsBvRXhzG5sHxM9l-jAXYuCBBQ_NRmU9",
             "talks": [
                 "[Lessons learnt building a FEE CTU template in Typst](https://typst.app/project/rONUnXcOkPaqzsXiPrn3tp)",
                 "[Theorems for free](https://vojtechstep.eu/notes/2025/tff.pdf)",
@@ -26,7 +26,7 @@
         {
             "title": "Student PL Meetup vol. 3",
             "date": "6. June 2025",
-            "recording": null,
+            "recording": "https://www.youtube.com/playlist?list=PLIsBvRXhzG5uhTYluyzcSQw9T_JOmHqdh",
             "talks": [
                 "Variace na ~~Renesanční~~ PL téma\n- Jak se dá jednoduše pochopit a implementovat type-based overloading\n- Proč je algebraic subtyping chvílema jednodušší než opěvovaný Hindley-Milner",
                 "[Everything you didn't want to know about TeX](resources/s03/tex/index.html)",
