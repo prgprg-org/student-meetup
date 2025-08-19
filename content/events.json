@@ -2,13 +2,12 @@
     "future": [
         {
             "title": "Student PL Meetup vol. 5",
-            "date": "TBD. September 2025",
+            "date": "3. September 2025",
             "location": "[T2:C3-132, FEL ČVUT, Dejvice](https://navigate.fel.cvut.cz/static/demo/index.html?start=T2:C2-86&end=T2:C3-132)",
             "stream": "https://www.youtube.com/playlist?list=PLQL6z4JeTTQmGdWlPl-Sp3y-wuYLgpD4i",
             "talks": [
-                "Continuations of TeX and PowerShell",
-                "Maybe Zig Comptime",
-                "[**Call for talks is open!**](/call-for-talks)"
+                "Continuations of TeX and PowerShell talks",
+                "Zig Compiler Internals",
             ]
         }
     ],
