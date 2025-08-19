@@ -7,7 +7,7 @@
             "stream": "https://www.youtube.com/playlist?list=PLQL6z4JeTTQmGdWlPl-Sp3y-wuYLgpD4i",
             "talks": [
                 "Continuations of TeX and PowerShell talks",
-                "Zig Compiler Internals",
+                "Zig Compiler Internals"
             ]
         }
     ],
