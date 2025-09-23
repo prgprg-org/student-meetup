@@ -1,17 +1,28 @@
 {
     "future": [
         {
-            "title": "Student PL Meetup vol. 5",
-            "date": "3. September 2025",
+            "title": "Student PL Meetup vol. 6",
+            "date": "TBD October 2025",
             "location": "[T2:C3-132, FEL ČVUT, Dejvice](https://navigate.fel.cvut.cz/static/demo/index.html?start=T2:C2-86&end=T2:C3-132)",
             "stream": "https://www.youtube.com/playlist?list=PLQL6z4JeTTQmGdWlPl-Sp3y-wuYLgpD4i",
             "talks": [
-                "Continuations of TeX and PowerShell talks",
-                "Zig Compiler Internals"
+                "Punch Card Stories",
+                "Zig Comptime",
+                "[Call for talks is open!](/call-for-talks/)"
             ]
         }
     ],
     "past": [
+        {
+            "title": "Student PL Meetup vol. 5",
+            "date": "3. September 2025",
+            "recording": "https://youtu.be/awrKM2c24qU?si=ZZgmfuIc4Km9yj52",
+            "talks": [
+                "Zig Compiler Internals",
+                "Weird Stuff PowerShell Does II (part 2)",
+                "[Everything you didn't want to know about TeX (part 2)](resources/s03/tex/index.html)"
+            ]
+        },
         {
             "title": "Student PL Meetup vol. 4",
             "date": "31. July 2025",
