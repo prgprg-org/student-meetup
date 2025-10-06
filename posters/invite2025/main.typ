@@ -34,7 +34,7 @@
     )[
       #text(size: 28pt, weight: 600, fill: white, font: "Neuton")[PRG • PRG]
     ]
-    #v(-5pt)
+    #v(-2pt)
     #block(
       fill: accent, inset: (left: 16pt, right: 16pt, top: 2pt, bottom: 20pt), width: 100%,
     )[
@@ -54,17 +54,21 @@
   ],
 )
 
+#v(-8pt)
+
 #set par(leading: 0.75em, justify: true)
 
-Přidejte se ke komunitě studentů a absolventů #h(4pt) *FEL ČVUT*, #h(4pt) *FIT ČVUT*, #h(4pt) *MFF UK* a přijďte se dozvědět více o nejrůznějších zákoutích programovacích jazyků, compilerů a runtime systémů.
+#text(size: 15.5pt, [
+Poznejte rozmanitá zákoutí programovacích jazyků, compilerů a runtime systémů v komunitě studentů a absolventů #h(2pt) FEL ČVUT, #h(2pt) FIT ČVUT, #h(2pt) MFF UK.
+])
 
-#v(16pt)
+#v(8pt)
 #block(fill: none)[
-  #set text(size: 11pt)
+  #set text(size: 13pt)
   #set par(justify: true)
-  #text(weight: 600, fill: accent)[Minulá témata] \
+  #text(weight: 600, fill: accent, size: 14pt)[Minulá témata] \
   #show " · ": [#h(2pt) • #h(2pt)]
-  Zig Compiler Internals · Building a High-Performance Linker · How to Build and Break LLVM · Transpiling LLVM · Inside Rust Borrow Checker · Flow-Sensitive Typing (Kotlin) · Lua Register VM · Dependent Type Theory · Algebraic Effects · Type Kinds · Expression Problem · Continuations · Costs of Mutability · Theorems for Free · Automated Theorem Proving = Logic Programming · Isabelle/HOL · Symbolic Execution · Typst Template Lessons · Scalene Profiler · Breaking Python · Slightly Less Broken C · Inside PDF · APL · Φ Nodes are Functions! · WAT: Hardware Edition · Weird Stuff PowerShell Does  ·  (a mnohem více)
+  Zig Compiler Internals · Building a High-Performance Linker · How to Build and Break LLVM · Transpiling LLVM · Inside Rust Borrow Checker · Flow-Sensitive Typing (Kotlin) · Lua Register VM · Dependent Type Theory · Algebraic Effects · Type Kinds · Expression Problem · Continuations · Costs of Mutability · Theorems for Free · Automated Theorem Proving = Logic Programming · Isabelle/HOL · Symbolic Execution · Typst Template Lessons · Scalene Profiler · Breaking Python · Slightly Less Broken C · Inside PDF · APL · Φ Nodes are Functions! · WAT: Hardware Edition · Weird Stuff PowerShell Does · (_a mnohem více_)
 ]
 #v(1fr)
 
@@ -91,11 +95,11 @@ Přidejte se ke komunitě studentů a absolventů #h(4pt) *FEL ČVUT*, #h(4pt) *
   ], [
     #block(
       fill: none, [
-        #block(fill: white, inset: 15pt, [
-          #set text(weight: 900, fill: accent, size: 20pt)
+        #block(fill: white, inset: 16pt, [
+          #set text(weight: 900, fill: accent, size: 16pt)
           #set align(center)
-          #qr-code("https://discord.gg/eBznsEpD2V", width: 100%, color: accent)
-          #v(-13pt)
+          #qr-code("https://discord.gg/eBznsEpD2V", width: 101%, color: accent)
+          #v(-6pt)
           Discord
         ])
       ],
@@ -108,7 +112,7 @@ Přidejte se ke komunitě studentů a absolventů #h(4pt) *FEL ČVUT*, #h(4pt) *
   #set text(size: 32pt, weight: 600, fill: accent-alt, font: "Neuton")
   #align(horizon + center, "student-meetup.prgprg.org")
 ]#v(15pt)#align(center)[
-  #set text(size: 9pt, style: "italic", fill: luma(30%))
+  #set text(size: 10pt, style: "italic", fill: luma(30%))
   Prague Programming Languages & Systems Research Network
 
   Zodpovědná osoba FEL ČVUT: Jakub Dupák \<dupakjak\@fel.cvut.cz>
