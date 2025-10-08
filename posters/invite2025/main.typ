@@ -89,8 +89,10 @@ Poznejte rozmanitá zákoutí programovacích jazyků, compilerů a runtime syst
 
       #v(4pt)
 
-      📅 *20.10.* *18:00-21:00* #h(1fr)
-      📍 *FEL ČVUT Dejvice (T2:C3-132)* #h(1fr)
+      #text(size: 13pt)[
+      📅 *20.10.* *18:00-21:00* 
+      📍 *FEL ČVUT Dejvice (T2:C3-132)*
+    ]
     ]
   ], [
     #block(
@@ -111,9 +113,9 @@ Poznejte rozmanitá zákoutí programovacích jazyků, compilerů a runtime syst
   #set align(center)
   #set text(size: 32pt, weight: 600, fill: accent-alt, font: "Neuton")
   #align(horizon + center, "student-meetup.prgprg.org")
-]#v(15pt)#align(center)[
+]#v(16pt)#align(center)[
   #set text(size: 10pt, style: "italic", fill: luma(30%))
   Prague Programming Languages & Systems Research Network
 
-  Zodpovědná osoba FEL ČVUT: Jakub Dupák \<dupakjak\@fel.cvut.cz>
+  Kontakt na FEL ČVUT: Jakub Dupák \<dupakjak\@fel.cvut.cz>
 ]
