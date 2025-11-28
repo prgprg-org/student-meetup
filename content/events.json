@@ -6,7 +6,8 @@
             "location": "[T2:C3-132, FEL ČVUT, Dejvice](https://navigate.fel.cvut.cz/static/demo/index.html?start=T2:C2-86&end=T2:C3-132)",
             "stream": "https://www.youtube.com/live/mFK97XhIHOk?feature=share",
             "talks": [
-                "[Call for talks open!](/call-for-talks/)"
+                "[Call for talks open!](/call-for-talks/)",
+                "Misusing Rust Macros: Jakub Dupák"
             ]
         }
     ],
