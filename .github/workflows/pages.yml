@@ -5,6 +5,7 @@ on:
     branches: ["gh-pages"]
 
   workflow_dispatch:
+    branches: ["gh-pages"]
 
 permissions:
   contents: read
