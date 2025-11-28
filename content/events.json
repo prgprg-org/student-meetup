@@ -1,18 +1,28 @@
 {
     "future": [
         {
-            "title": "Student PL Meetup vol. 6",
+            "title": "Student PL Meetup vol. 7",
             "date": "20. October 2025",
             "location": "[T2:C3-132, FEL ČVUT, Dejvice](https://navigate.fel.cvut.cz/static/demo/index.html?start=T2:C2-86&end=T2:C3-132)",
             "stream": "https://www.youtube.com/playlist?list=PLQL6z4JeTTQmIjTHteUQcLWv9ZVkXCrLA",
+            "talks": [
+                "Cool and crazy stuff in the Jai language: Jan Řehoř",
+                "Základy obfuskace aneb Jaký užitek má nečitelný kód?: Martin Jabůrek",
+                "Type Systems in Programming Languages: Luukas Pörtfors (EN)"
+            ]
+        }
+    ],
+    "past": [
+        {
+            "title": "Student PL Meetup vol. 6",
+            "date": "20. October 2025",
+            "recording": "",
             "talks": [
                 "Povídání o děrných štítcích a páskách: čestní hosté [Dr. Božena Mannová](https://www.pametnaroda.cz/cs/mannova-bozena-1941) a [prof. Oldřich Starý](https://fel.cvut.cz/cs/fakulta/lide/352-oldrich-stary/)",
                 "Zig comptime a co se s ním dá dělat: Max Hollmann",
                 "Stacking monads: Michal Atlas"
             ]
-        }
-    ],
-    "past": [
+        },
         {
             "title": "Student PL Meetup vol. 5",
             "date": "3. September 2025",
