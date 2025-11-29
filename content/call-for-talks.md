@@ -15,3 +15,7 @@ Talks can take from 5 to 60 minutes. Most of our talks are about 40 minutes long
 You absolutelly don't need to be an expert in the topic you are presenting! You can review an interesting paper/article/blog post or pick a topic you would like to learn more about and have a discussion about it.
 
 One of our organizers, Jakub Dupák, presented a talk about PDF. He knew nothing PDFs two weeks before the talk. So don't be afraid to pick any topic you are interested in!
+
+### Language
+
+English talks are preferred as we tend to have international attendees. However, if you are more comfortable presenting in Czech or Slovak, that is absolutely fine as well (but let us know in advance so we can inform the attendees).
