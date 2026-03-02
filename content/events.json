@@ -4,7 +4,7 @@
             "title": "Student PL Meetup vol. 8",
             "date": "5. March 2026",
             "location": "[T2:C3-340, FEL ČVUT, Dejvice !!! changed room !!!](https://navigate.fel.cvut.cz/static/demo/index.html?start=T2:C2-86&end=T2:C3-340)",
-            "stream": "https://www.youtube.com/watch?v=7B_Ksa6Fb1g&list=PLQL6z4JeTTQnDFo1QMQqPkjEEd-yHg6zm&index=1",
+            "stream": "/stream",
             "talks": [
                 "How do we grow our languages? (Filip Říha)",
                 "SIMD, aneb jak se nebát vektorových instrukcí (Martin Jabůrek)",
