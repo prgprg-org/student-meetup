@@ -1,19 +1,30 @@
 {
     "future": [
         {
+            "title": "Student PL Meetup vol. 9",
+            "date": "10. April 2026 (18:00 - 21:00)",
+            "location": "[T2:C3-340, FEL ČVUT, Dejvice (new room)](https://navigate.fel.cvut.cz/static/demo/index.html?start=entryT2&end=T2:C3-340)",
+            "stream": "/stream",
+            "talks": [
+              "Optimizing UTF8 validation for ~~fame and glory~~ fail and gory: Max Hollmann",
+              "Learning λProlog for fun and profit: Vojtěch Štěpančík",
+              "Async I/O, part 1: Why and how: Matěj Kafka",
+              "Misusing Rust macros: Jakub Dupák"
+             ]
+        }
+    ],
+    "past": [
+        {
             "title": "Student PL Meetup vol. 8",
             "date": "5. March 2026 (18:00 - 21:00)",
-            "location": "[T2:C3-340, FEL ČVUT, Dejvice !!! changed room !!!](https://navigate.fel.cvut.cz/static/demo/index.html?start=entryT2&end=T2:C3-340)",
-            "stream": "/stream",
+            "recording": "https://www.youtube.com/playlist?list=PLIsBvRXhzG5vhZ45GvQAqV4yrLf8fIFkP",
             "talks": [
                 "How do we grow our languages?: Filip Říha",
                 "SIMD, aneb jak se nebát vektorových instrukcí: Martin Jabůrek",
                 "Why PowerShell?: Matěj Kafka"
              ]
-        }
-    ],
-    "past": [
-                {
+        },
+        {
             "title": "Student PL Meetup vol. 7",
             "date": "28. November 2025",
             "recording": "https://www.youtube.com/playlist?list=PLIsBvRXhzG5sVVW98ahW96xynJsjBUydw",
