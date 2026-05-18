@@ -8,7 +8,7 @@
             "talks": [
                 "Async I/O, part 1: Why and how: Matěj Kafka",
                 "Writing Interpreters using the Truffle Framework: Adam Hrbáč, ex-Oracle",
-                "Refinement types for Rust: Ranjit Jhala @ PLISS 2025 (presented by Oliver Tušla)",
+                "Refinement types for Rust: Ranjit Jhala @ PLISS 2025 (presented by Oliver Tušla)"
              ]
         }
     ],
