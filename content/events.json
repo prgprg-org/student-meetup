@@ -2,12 +2,13 @@
     "future": [
         {
             "title": "Student PL Meetup vol. 10",
-            "date": "TBD",
+            "date": "10th of May 2026 (18:00 - 21:00)",
             "location": "[T2:C3-340, FEL ČVUT, Dejvice](https://navigate.fel.cvut.cz/static/demo/index.html?start=entryT2&end=T2:C3-340)",
             "stream": "/stream",
             "talks": [
                 "Async I/O, part 1: Why and how: Matěj Kafka",
-                "[Call for talks open](/call-for-talks)"
+                "Writing Interpreters using the Truffle Framework: Adam Hrbáč, ex-Oracle",
+                "Refinement types for Rust: Ranjit Jhala @ PLISS 2025 (presented by Oliver Tušla)",
              ]
         }
     ],
