@@ -2,17 +2,27 @@
     "future": [
         {
             "title": "Student PL Meetup vol. 10",
-            "date": "10th of May 2026 (18:00 - 21:00)",
+            "date": "24 of June 2026 (18:00 - 21:00)",
             "location": "[T2:C3-340, FEL ČVUT, Dejvice](https://navigate.fel.cvut.cz/static/demo/index.html?start=entryT2&end=T2:C3-340)",
             "stream": "/stream",
             "talks": [
-                "Async I/O, part 1: Why and how: Matěj Kafka",
-                "Writing Interpreters using the Truffle Framework: Adam Hrbáč, ex-Oracle",
-                "Refinement types for Rust: Ranjit Jhala @ PLISS 2025 (presented by Oliver Tušla)"
+                "Async I/O, part 2 (Matěj Kafka)",
+                "Debugging, Async, and More in CPython and GraalPy (Adam Hrbáč, ex-Oracle)",
+                "Compiling Just In Time (Michal Vlasák)"
              ]
         }
     ],
     "past": [
+        {
+            "title": "Student PL Meetup vol. 10",
+            "date": "20th May 2026 (18:00 - 21:00)",
+            "recording": "",
+            "talks": [
+                "Async I/O, part 1: OS interfaces: Matěj Kafka",
+                "Writing Interpreters using the Truffle Framework: Adam Hrbáč, ex-Oracle",
+                "Refinement types for Rust (Ranjit Jhala @ PLISS 2025): prezentuje Oliver Tušla"
+             ]
+        },
         {
             "title": "Student PL Meetup vol. 9",
             "date": "10th of April 2026 (18:00 - 21:00)",
