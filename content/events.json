@@ -6,9 +6,10 @@
             "location": "[T2:C3-340, FEL ČVUT, Dejvice](https://navigate.fel.cvut.cz/static/demo/index.html?start=entryT2&end=T2:C3-340)",
             "stream": "/stream",
             "talks": [
-                "Async I/O, part 2 (Matěj Kafka)",
-                "Debugging, Async, and More in CPython and GraalPy (Adam Hrbáč, ex-Oracle)",
-                "Compiling Just In Time (Michal Vlasák)"
+                "Type inference for dynamic languages and working with their types: Mickaël Laurent, Oliver Tušla",
+                "Cancelled: ~Async I/O, part 2: Matěj Kafka~",
+                "Debugging, Async, and More in CPython and GraalPy: Adam Hrbáč, ex-Oracle",
+                "Compiling Just In Time: Michal Vlasák"
              ]
         }
     ],
