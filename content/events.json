@@ -4,7 +4,6 @@
             "title": "Student PL Meetup vol. 10",
             "date": "24 of June 2026 (18:00 - 21:00)",
             "location": "[T2:C3-340, FEL ČVUT, Dejvice](https://navigate.fel.cvut.cz/static/demo/index.html?start=entryT2&end=T2:C3-340)",
-            "stream": "/stream",
             "talks": [
                 "Type inference for dynamic languages and working with their types: Mickaël Laurent, Oliver Tušla",
                 "Cancelled: ~Async I/O, part 2: Matěj Kafka~",

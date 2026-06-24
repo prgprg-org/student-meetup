@@ -20,7 +20,7 @@
             <div class="date-recording">
                 <p><span class="icon">📅 </span>{{ event.date }}</p>
                 <p><span class="icon">📍 </span>{{ event.location | markdown(inline=true) | safe }}</p>
-                <p><span class="icon">📺 </span><a href="{{ event.stream }}" target="_blank">Live stream</a></p>
+                <p><span class="icon">📺 </span><a href="./stream" target="_blank">Live stream</a></p>
             </div>
             <ul>
                 {% for talk in event.talks %}
