@@ -1,22 +1,31 @@
 {
     "future": [
         {
+            "title": "Student PL Meetup vol. 12",
+            "date": "TBD",
+            "recording": "https://www.youtube.com/playlist?list=PLIsBvRXhzG5te_JFLHFXUwJJNms1NBWuR",
+            "location": "[T2:C3-340, FEL ČVUT, Dejvice](https://navigate.fel.cvut.cz/static/demo/index.html?start=entryT2&end=T2:C3-340)",
+            "talks": [
+                "[Call for talks open](/call-for-talks)"
+             ]
+        }
+    ],
+    "past": [
+        {
             "title": "Student PL Meetup vol. 11",
             "date": "24 of June 2026 (18:00 - 21:00)",
-            "location": "[T2:C3-340, FEL ČVUT, Dejvice](https://navigate.fel.cvut.cz/static/demo/index.html?start=entryT2&end=T2:C3-340)",
+            "recording": "https://www.youtube.com/playlist?list=PLIsBvRXhzG5te_JFLHFXUwJJNms1NBWuR",
             "talks": [
                 "Type inference for dynamic languages and working with their types: Mickaël Laurent, Oliver Tušla",
                 "Cancelled: ~Async I/O, part 2: Matěj Kafka~",
                 "Debugging, Async, and More in CPython and GraalPy: Adam Hrbáč, ex-Oracle",
                 "Compiling Just In Time: Michal Vlasák"
              ]
-        }
-    ],
-    "past": [
+        },
         {
             "title": "Student PL Meetup vol. 10",
             "date": "20th May 2026 (18:00 - 21:00)",
-            "recording": "",
+            "recording": "https://www.youtube.com/playlist?list=PLIsBvRXhzG5v2p_Q2_7ebf5iM2oSihmKQ",
             "talks": [
                 "Async I/O, part 1: OS interfaces: Matěj Kafka",
                 "Writing Interpreters using the Truffle Framework: Adam Hrbáč, ex-Oracle",
